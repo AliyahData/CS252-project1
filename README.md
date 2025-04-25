@@ -1,5 +1,6 @@
-# CS252-project1
+# IDEs-Assignment
 
-A small Java project.
+The starting code for a CS252 assignment.
 
-* Ths repository belongs to abens006@odu.edu
+* Submitted by: `yourMidasID@odu.edu`
+
