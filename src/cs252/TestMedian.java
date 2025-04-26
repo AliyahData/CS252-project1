@@ -26,8 +26,10 @@ public class TestMedian {
             double[] trimmedInputs = Arrays.copyOf(inputs, i+1);
             Median med = new Median(trimmedInputs);
             double avg = med.median();
-            if (avg != expected[i])
-                return false;
+        if (avg != expected[i])
+        	System.err.println("Test failed for i = " + i);
+            System.err.println("Expected: " + expected[i] +", but got: " +avg);
+            return false;
         }
         return true;
     }
